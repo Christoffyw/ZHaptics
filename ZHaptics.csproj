@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>ZHaptics</AssemblyName>
+    <Description>Bhaptics support for Zenith</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.IL2CPP">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\core\BepInEx.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="Bhaptics.Tact">
+      <HintPath>..\..\ZenithBhapticsExport\deps\Bhaptics.Tact.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Improbable.Gdk.Core">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Improbable.Gdk.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Improbable.Gdk.Generated">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Improbable.Gdk.Generated.dll</HintPath>
+    </Reference>
+    <Reference Include="Improbable.Gdk.StandardTypes">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Improbable.Gdk.StandardTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>deps\YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenith">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Zenith.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenith.ThirdParty">
+      <HintPath>D:\Games\Software\ramen-vr-zenith\BepInEx\unhollowed\Zenith.ThirdParty.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
